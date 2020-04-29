@@ -2,8 +2,9 @@
 
 This `modparse` tool downloads and parses the `go.mod` files for the given set
 of remote repositories, then prints out the unique set (no duplicates) of all
-required dependencies found. It is expected that all repositories are hosted on
-`github.com`.
+required dependencies found. It is expected that all **input** repositories are
+hosted on `github.com`, but dependencies that are parsed and discovered by this tool
+can be hosted anywhere.
 
 ### Help output
 
